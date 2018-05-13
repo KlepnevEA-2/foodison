@@ -1,0 +1,16 @@
+
+.logo {
+	display: inline-block;
+	
+	img {
+		height: rem(53px);
+		width: auto;
+		
+		@include phones_320() {
+			margin-top: 10px;
+			width: 110px;
+			height: auto;
+		}
+	}
+}
+
